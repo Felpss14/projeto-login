@@ -38,7 +38,7 @@
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-    
+
  }
 
  section#login > div#imagem {
@@ -53,3 +53,11 @@
     display: block;
     padding: 10px;
  }
+
+ div#formulario > h1 {
+        font-size: 2em;
+    }
+
+ div#formulario > p {
+        font-size: 1.2em;
+    }
