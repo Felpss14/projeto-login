@@ -27,7 +27,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
     background-color: white;
@@ -38,14 +38,14 @@
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-
+    transform: translate(-50%, -50%);
  }
 
  section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-isares-thiankul-1335793-2573801.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: left bottom;
     height: 200px;
  }
 
@@ -89,10 +89,11 @@ div.campo > input {
    font-size: 1em;
    width: calc(100% - 44px);
    height: 100%;
-   transform: translateY(-12px);
+   
    border: 0;
    border-radius: 8px;
    padding: 4px;
+   transform: translateY(-10px);
 }
 
 div.campo > input:focus-within {
