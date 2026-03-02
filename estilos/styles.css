@@ -55,7 +55,8 @@
  }
 
  div#formulario > h1 {
-        font-size: 2em;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
  div#formulario > p {
@@ -89,7 +90,7 @@ form > a.botao {
    background-color: white;
    color: #2d6462;
    border: 1px solid #49a09d;
-   border-radius: 5px;
+   border-radius: 7px;
    text-decoration: none;
 }
 
